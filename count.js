@@ -16,7 +16,7 @@ function countUnique(arr) {
 
 
    let count = 0;
-   let i = j = undefined;
+   let [i, j] = [undefined, undefined];
 
    for (i = 0; i < arr.length; i++) {
      if (arr[i] !== arr[j]) {
