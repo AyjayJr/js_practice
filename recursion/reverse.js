@@ -3,11 +3,11 @@ console.log(reverse('rithmschool')); // 'loohcsmhtir'
 
 // return a reverse of the given string recursively
 function reverse(str) {
-   ret = []; 
+   let ret = []; 
 
    // helper function
    function recurse(str) {
-      if (str === '') { return null };
+      if (str === '') { return null; }
       recurse(str.slice(1));
       ret.push(str[0]);
       return;
